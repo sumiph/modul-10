@@ -4,6 +4,7 @@
 }
 header{
     width: 100%;
+    height: 100vh;
 }
 nav{
     display: flex;
@@ -68,11 +69,20 @@ border: none;
   width: 100%;
 }
 /*--------banner section end--------*/
+/*group stert*/
+.commpany-grouo{
+    width: 100%;
+    height: 20vh;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background: #FFF;
+}
+/*group end*/
 
-
-
-
-
+/*-------------------start media sreen-----------------------------------*/
 @media screen and (max-width:576px) {
     nav,
     .Preebook-now {
@@ -86,6 +96,14 @@ border: none;
     }
     #order{
         order: -1;
+    }
+    .group{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      margin-top: 50px;
+      gap: 30px;
+      width: 100%;
+
     }
 }
 
