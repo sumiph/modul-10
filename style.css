@@ -154,11 +154,11 @@ line-height: 150%;
         order: -1;
     }
     .group{
-      display: grid;
-      grid-template-columns: repeat(3,1fr);
-      margin-top: 200px;
-      gap: 30px;
-      width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:none;
+    margin: 20px 0;
+
     }
     .card-box{
         display: grid;
