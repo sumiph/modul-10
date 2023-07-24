@@ -128,7 +128,6 @@ line-height: 150%;
 /*card end*/
 .contend{
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: space-around;
 }
@@ -149,11 +148,32 @@ font-size: 16px;
 padding: 10px;
 }
 /* end feature section --------------------*/
-
-
-
-
-
+.footer-contend{
+    width: 100%;
+    height: 30vh;
+    background-color: #0A0826;
+    text-align: center;
+    color: #FFF;
+    padding-top: 7%;
+}
+.footer-contend h1{
+    font-family: Poppins;
+    font-size: 44px;
+}
+.footer-contend p{
+    font-family: Manrope;
+font-size: 20px;
+}
+.footer-contend h6{
+    font-family: Manrope;
+font-size: 18px;
+}
+.footer-icon img{
+    color: #FFF;
+   gap: 20px;
+   height: 30px;
+   padding: 10px;
+}
 /*-------------------start media sreen-----------------------------------*/
 @media screen and (max-width:576px) {
     nav,
@@ -176,6 +196,8 @@ padding: 10px;
     .card{
      margin-right: 20px;
     }
-
+    .contend{
+flex-direction: column;
+    }
 }
 
